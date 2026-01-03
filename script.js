@@ -17,7 +17,7 @@ const state = {
   sort: 'featured',
   search: ''
 };
-
+//Add to cart facility using AI
 // --- DOM ---
 const productsEl = document.getElementById('products');
 const cartButton = document.getElementById('cartButton');
@@ -218,7 +218,9 @@ yearEl.textContent = new Date().getFullYear();
 
 // Build category chips and initial render
 renderCategoryChips();
+
 renderProducts();
+
 renderCart();
 
 // --- Checkout ---
